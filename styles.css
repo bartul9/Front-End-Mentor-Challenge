@@ -1,0 +1,146 @@
+/* Footer and body */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+}
+
+/* Heading */
+
+header {
+  margin: 50px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#h1span {
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: rgb(109, 109, 109);
+}
+
+#paragraf1 {
+  text-align: center;
+  font-weight: 200;
+  color: rgb(136, 132, 132);
+  font-weight: 200;
+}
+
+/* Boxes */
+
+/* Big box-row */
+.row {
+  width: 100%;
+  height: 700px;
+}
+
+/* Small boxes universal */
+.box {
+  width: 20%;
+  height: 230px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  margin-left: 2%;
+  overflow: hidden;
+  box-shadow: 8px 15px #ece9e979;
+}
+
+/* Small boxes 1,2,3,4 */
+.one {
+  border-top: 3px solid rgb(136, 224, 253);
+  position: relative;
+  float: left;
+  top: 20%;
+  left: 14%;
+}
+.two {
+  border-top: 3px solid rgba(255, 0, 0, 0.671);
+  position: relative;
+  float: left;
+  left: 15.1%;
+}
+.three {
+  border-top: 3px solid rgb(248, 230, 63);
+  position: relative;
+  float: left;
+  left: -7%;
+  top: 40%;
+}
+.four {
+  border-top: 3px solid rgb(82, 138, 243);
+  position: relative;
+  float: left;
+  top: 20%;
+  right: 6%;
+}
+
+/* Image inside boxes, and paragrafs */
+.img {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.boxparagraf {
+  margin-left: 15px;
+}
+.insideparagraf {
+  font-size: 12px;
+  color: gray;
+  margin-left: 15px;
+}
+
+/* media queries max width 661px */
+
+@media (max-width: 661px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  header {
+    margin: 5%;
+  }
+  .box {
+    width: 80%;
+    height: 230px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    overflow: visible;
+  }
+  .one {
+    left: 0%;
+    top: 0%;
+  }
+  .two {
+    left: 0%;
+    /* top: 240px; */
+  }
+  .three {
+    position: relative;
+    left: 0%;
+    top: 0%;
+  }
+  .four {
+    position: relative;
+    left: 0%;
+    top: 0%;
+  }
+}
+
+/* Footer */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
